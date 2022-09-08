@@ -30,6 +30,11 @@ h3{
   font-weight: 600;
   margin-bottom: 30px;
   color: #E3004C;
+  text-align: center;
+}
+
+br.di{
+  display: none;
 }
 
 @media (min-width:1521px) {
@@ -202,7 +207,7 @@ header .hd_all {
   right: -100%;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.87);
+  background: rgba(16, 7, 28, 0.87);
   /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
@@ -500,6 +505,307 @@ input[type="checkbox"] {
 }
 
 
+/* intro3 */
+#intro03{
+  width: 100%;
+  height: auto;
+  background:url(../img/int3_bg.png) no-repeat center center;
+  text-align: center;
+  background-size: cover;
+}
+
+#intro03 .intro03_area{
+  width: 100%;
+  padding:160px 0;
+}
+
+#intro03 .intro03_area .int3_img img{
+  max-width: 90%;
+}
+#intro03 .intro03_area .int3_img img.int3_img_w{
+
+}
+#intro03 .intro03_area .int3_img img.int3_img_m{
+  display: none;
+}
+
+#intro03 .intro03_area .int3_txt_box{
+  padding-top: 80px;
+  width: 100%;
+  height: 400px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+#intro03 .intro03_area .int3_txt_box .int3_box{
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(118,72,94,0) 10%, rgba(77,45,64,0.6) 49%, rgba(48,26,60,1) 100%);
+}
+
+#intro03 .intro03_area .int3_txt_box .int3_box li{
+  padding:5%;
+  width:33%;
+  color: #fff;
+}
+
+#intro03 .intro03_area .int3_txt_box .int3_box li h4{
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+
+
+/* coin */
+#coin {
+  width: 100%;
+  height: 100%;
+  padding: 90px 0;
+  background: url(../img/coin_bg.png) no-repeat center;
+  background-size: cover;
+}
+
+
+#coin .coin_area h3 {
+  position: relative;
+}
+
+
+#coin .coin_area .chart_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#coin .coin_area div.chart {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+#coin .coin_area div.chart canvas#myChart {
+  padding-top: 10px;
+  max-width: 70%;
+  border: none;
+}
+
+#coin .coin_area .chart_data {
+  width: 50%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.3);
+  padding: 4% 2%;
+  color: #fff;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
+
+#coin .coin_area .chart_data::after{
+  content: "";
+  background-color:#D70048;
+  width:100%;
+  height:15px;
+  position: absolute;
+  top: -50px;
+  left:0;
+
+}
+
+#coin .coin_area .chart_data ul {
+  height: 100%;
+}
+
+#coin .coin_area .chart_data ul li {
+  line-height: 4;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+#coin .coin_area .chart_data ul li span {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #C90F45;
+  display: block;
+  margin-right: 10px;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(2) span {
+  background-color: #7F1A3B;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(3) span {
+  background-color: #A87385;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(4) span {
+  background-color: #B48199;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(5) span {
+  background-color: #D698AB;
+}
+
+#coin .coin_area .chart_data ul li:nth-child(6) span {
+  background-color: #F7C2BD;
+}
+
+
+#coin .coin_area .chart_txt {
+  width: 100%;
+}
+#coin .coin_area .chart_txt ul {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+#coin .coin_area .chart_txt ul li {
+  width: 50%;
+  line-height: 2;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+#coin .coin_area .chart_txt ul li b{
+  font-weight: bold;
+}
+
+#coin .coin_area .chart_txt ul li br.dis{
+  display:none;
+}
+
+
+/* roadmap */
+
+#roadmap{
+  width: 100%;
+  height: 100%;
+  background-color: #151924;
+  position: relative;
+}
+
+#roadmap::before{
+  content: "";
+  background: url("../img/roadmap_top.png") no-repeat;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#roadmap::after{
+  content: "";
+  background: url("../img/roadmap_moon.png") no-repeat;
+  width: 1477px;
+  height: 580px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#roadmap .roadmap_area{
+  position: relative;
+  padding: 160px 0;
+}
+
+#roadmap .roadmap_area .road_box_area{
+  display: flex;
+  flex-direction: column;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:341px;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box:hover{
+  transform :scale(1.1)
+}
+#roadmap .roadmap_area .road_box_area .road_box .road_img{
+  position: relative;
+  width: 20%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_img::after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(33,33,33,0) 0%, rgba(0,0,0,1) 100%);
+  opacity:.8;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box.se .road_img::after{
+    background: linear-gradient(0deg, rgba(33,33,33,0) 0%, rgba(0,0,0,1) 100%);
+  }
+#roadmap .roadmap_area .road_box_area .road_box.th .road_img::after{
+  background: linear-gradient(170deg, rgba(33,33,33,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+
+#roadmap .roadmap_area .road_box_area .road_box .road_img h4{
+  color: #F60053;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #1E1E1E;
+  left: 0;
+  bottom: 0;
+  line-height: 70px;
+  z-index: 10;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box.se{
+  flex-direction:row-reverse;
+  margin: 5% auto;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_txt{
+  width: 40%;
+  height: 100%;
+  padding: 0 40px;
+  box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(0, 0, 0, 0.8) -6px -2px 16px 0px;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_txt ul{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_txt h5{
+  color: #D70048;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_txt li{
+  line-height:2.5;
+}
+
+#roadmap .roadmap_area .road_box_area .road_box .road_txt li p{
+color: #fff;
+}
+
 
 /* contact */
 
@@ -571,9 +877,11 @@ input[type="checkbox"] {
   position: relative;
   color: #ff0055;
 }
+
 #contact .con_area .con_txt_left .sns .sns_icon{
   padding-top: 3%;
 }
+
 #contact .con_area .con_txt_left .sns a i{
   color: #fff;
   font-size: 2em;
@@ -594,6 +902,10 @@ input[type="checkbox"] {
   position: relative;
   color:#ff0055;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#contact .con_area .con_txt_right h3{
+  text-align: left;
 }
 
 #contact .con_area .con_txt_right h4{

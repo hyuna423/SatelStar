@@ -55,7 +55,7 @@
             </a></li>
           <li><a href="#roadmap" class="scroll">Roadmap</a></li>
           <li><a href="#contact" class="scroll">Contact</a></li>
-          <li><a href="index.html" class="lan">Ko <img src="img/ko_icon.png" alt="eng_icon"></a></li>
+          <li><a href="index_eng.html" class="lan">Eng<img src="img/eng_icon.png" alt="eng_icon"></a></li>
         </ul>
 
       </nav>
@@ -74,7 +74,7 @@
             </a></li>
           <li><a href="#roadmap" class="scroll">Roadmap</a></li>
           <li><a href="#contact" class="scroll">Contact</a></li>
-          <li><a href="index.html" class="lan">Ko <img src="img/ko_icon.png" alt="eng_icon"></a></li>
+          <li><a href="index.html" class="lan">Eng <img src="img/eng_icon.png" alt="eng_icon"></a></li>
 
         </ul>
 
@@ -117,6 +117,212 @@
       </div>
   </section>
 
+
+
+  <!-- intro3 -->
+
+  <section id="intro03">
+    <div class="intro03_area container">
+      <h3>새틀스타 (SatelStar) <br class="di">플랫폼 구성원</h3>
+      <div class="int3_img">
+        <img src="img/int3.png" alt="intro3" class="int3_img_w">
+        <img src="img/int3_m.png" alt="intro3" class="int3_img_m">
+
+      </div>
+      <div class="int3_txt_box">
+        <ul class="int3_box">
+          <li>
+            <h4>위성연구 개발 기관</h4>
+            <p>미국 내 위성연구소 보유 공과대학과 개발한<br>
+              기술력, 신소재, 알고리즘으로 개발하고<br>
+              이에 대한 수익을 배분합니다.
+              </p>
+          </li>
+          <li>
+            <h4>위성 방송 중계 기업
+            </h4>
+            <p>가장 큰 수익원이 창출 될 분야입니다. <br>
+              위성송출 비용의 단가를 크게 낮춰 출범 후<br>
+              단기간내에 12개국 이상에서 30여개<br>
+              방송/스포츠단체와의 위성송출 계약을 <br>
+              준비 하고 있습니다.
+              </p>
+          </li>
+          <li>
+            <h4>위성 사업 참여 개인 
+            </h4>
+            <p>SatelStar코인의 보유자에게는 위성 외주<br>
+              개발 과정에서 획득 된 특허권과 핵심기술<br>
+              이전 로열티에 대한 지분을 인정하여<br>
+              향후 기술이전자금 수익 발생 시<br>
+              이에 대한 지분수익을 제공할 계획입니다.
+              </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- coin -->
+  <section id="coin">
+    <div class="coin_area container">
+        <h3>새틀스타(SatelStar)<br class="di">Coin 자금배분계획</h3>
+
+        <div class="chart_area">
+            <div class="chart">
+                <canvas id="myChart"></canvas>
+            </div>
+
+            <div class="chart_data">
+                <ul>
+                    <li><span></span>코인세일 15%</li>
+                    <li><span></span>위성 기술 개발 15%</li>
+                    <li><span></span>발사체 제작 20%</li>
+                    <li><span></span>운영 블록체인 알고리즘 개발 15%</li>
+                    <li><span></span>위성체 발사 및 원격관리 25%</li>
+                    <li><span></span>팀 배분 10%</li>
+                </ul>
+                <div class="chart_txt">
+                  <ul>
+                      <li><b>Coin Name :</b><br class="dis"> SatelStar</li>
+                      <li><b>Symbol :</b><br class="dis"> STSR </li>
+                      <li><b>Protocol :</b> <br class="dis">ERC20</li>
+                      <li><b>Total Supply :</b><br class="dis">100,000,000</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+     
+
+
+        <script>
+            const data = {
+
+                // labels: [
+                //     'Coin sales',
+                //     'Development for Battery Material',
+                //     'M&A of Battery material development and manufacturing lines',
+                //     'Global marketing',
+                //     'Legal Advisory',
+                //     'Team',
+
+                // ],
+                // display: ['none']
+                // ,
+
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [15, 15, 20, 15, 25, 10],
+                    backgroundColor: [
+                        '#C90F45',
+                        '#7F1A3B',
+                        '#A87385',
+                        '#B48199',
+                        '#D698AB',
+                        '#F7C2BD',
+                    ],
+                    hoverOffset: 4
+                }]
+            };
+
+            const config = {
+                type: 'doughnut',
+                data: data,
+            };
+        </script>
+
+        <script>
+            const myChart = new Chart(
+                document.getElementById('myChart'),
+                config
+            );
+        </script>
+
+
+    </div>
+</section>
+
+
+<section id="roadmap">
+  <div class="roadmap_area container">
+    <h3>Roadmap</h3>
+    <div class="road_box_area">
+      <div class="road_box fi">
+        <div class="road_img">
+          <h4>2021</h4>
+          <img src="img/road_1.png" alt="road1_bg">
+        </div>
+        <div class="road_txt">
+          <ul>
+            <li>
+              <h5>Q3</h5>
+              <p>StelStar 설립</p>
+            </li>
+            <li>
+              <h5>Q4</h5>
+              <p>위성 운영 알고리즘 기본 개발 완료</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="road_box se">
+        <div class="road_img">
+          <h4>2022</h4>
+          <img src="img/road_2.png" alt="road1_bg">
+        </div>
+        <div class="road_txt">
+          <ul>
+            <li>
+              <h5>Q1</h5>
+              <p>SatelStar 플랫폼 및 지갑 개발 개시</p>
+            </li>
+            <li>
+              <h5>Q2</h5>
+              <p>SatelStar 위성 제작 신소재 개발 청사진</p>
+            </li>
+            <li>
+              <h5>Q3</h5>
+              <p>SatelStar 글로벌 상위권 거래소 상장 및 지갑 출시</p>
+            </li>
+            <li>
+              <h5>Q4</h5>
+              <p>SatelStar 방송송출 중계권 협의</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="road_box th">
+        <div class="road_img">
+          <h4>2023</h4>
+          <img src="img/road_3.png" alt="road1_bg">
+        </div>
+        <div class="road_txt">
+          <ul>
+            <li>
+              <h5>Q1</h5>
+              <p>아시아 지역 및 북미 상위권 거래소 상장 확대
+              </p>
+            </li>
+            <li>
+              <h5>Q2</h5>
+              <p>SatelStar 플랫폼 형태 지갑 출시
+              </p>
+            </li>
+            <li>
+              <h5>Q3</h5>
+              <p>SatelStar 위성체 발사 일정 확정</p>
+            </li>
+            <li>
+              <h5>Q4</h5>
+              <p>SatelStar  플랫폼 고도화 작업</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <!-- contact -->
