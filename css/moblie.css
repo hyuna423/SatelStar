@@ -1,0 +1,174 @@
+
+/*데탑*/
+@media screen and (max-width:1440px) {
+  #home .main_vid video {
+    width:auto;
+    height: 100%;
+}
+
+#down .down_area button {
+  width: 35%;
+}
+
+#contact .con_area .con_txt_right {
+  padding: 6% 5%;
+}
+
+#contact::before {
+  bottom: -78px;
+}
+}
+
+
+
+/*노트북*/
+  @media screen and (max-width:1024px) {
+    #home .main_area {
+      top: 62%;
+    }
+
+    .hd_all .pc_wrap {
+      display: none;
+  }
+
+  .hd_all .menu-btn {
+    display: block;
+}
+}
+
+
+
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+    h3 {
+      font-size: 2em;
+      padding-bottom: 10px;
+    }
+
+    #contact .con_area .con_txt_right {
+      padding: 8% 5%;
+  }
+
+  #home .main_area .main_txt p br{
+    display: none;
+  }
+
+  footer .footer_area .footer_f{
+    margin-bottom: 30px;
+  }
+  footer .footer_area {
+    flex-direction: column;
+}
+}
+
+
+
+/*모바일*/
+
+@media screen and (max-width:767px) {
+
+  #home .main_area .main_txt b {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#down .down_area {
+  justify-content: space-between;
+}
+
+#down .down_area button {
+  width: 48%;
+}
+
+#contact .con_area {
+  flex-direction: column;
+}
+
+#contact .con_area .con_txt_left {
+  width: 90%;
+}
+
+#contact .con_area .con_txt_right {
+  width: 90%;
+}
+
+footer .footer_area .footer_w {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+
+footer .footer_area .footer_w button {
+  padding: 10px;
+  width:50%;
+  margin-right: 0;
+}
+
+footer .footer_area .footer_w:last-child button{
+  margin-top: 30px;
+}
+
+}
+
+
+/*모바일2*/
+
+
+@media screen and (max-width:576px) {
+
+  #home .main_area h2 {
+    font-size: 4rem;
+  }
+
+  #home .main_area .main_txt b {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#home .main_area .main_txt p {
+  font-size: 1rem;
+}
+
+#down .down_area {
+  width:100%;
+  flex-direction: column;
+}
+
+#down .down_area button {
+  width: 90%;
+}
+
+#down .down_area .btn_wallet {
+  margin-top: 30px;
+}
+
+#down .down_area button a {
+  font-size: 1.2rem;
+}
+
+}
+
+
+
+/*모바일3 갤럭시*/
+
+  @media screen and (max-width:425px) {
+
+
+    footer .footer_area .footer_w button {
+      width: 70%;
+    }
+
+}
+
+
+
+/*모바일4 아이폰*/
+    @media screen and (max-width:375px) {
+      #home .main_area .main_txt b {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+}
