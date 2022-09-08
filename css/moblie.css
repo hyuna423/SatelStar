@@ -59,6 +59,26 @@
   footer .footer_area {
     flex-direction: column;
 }
+
+  .ab_cont {
+    display: block;
+  }
+
+  .ab_cont_box {
+    width: 30%;
+    margin-bottom: 30%;
+    margin: auto;
+  }
+
+  #about .ab_cont_box {
+    padding: 5%;
+    margin: 0 auto 5%;
+  }
+ 
+  #about .ab_cont_box p {
+    font-size: 0.9rem;
+  }
+
 }
 
 
@@ -107,6 +127,24 @@ footer .footer_area .footer_w button {
 
 footer .footer_area .footer_w:last-child button{
   margin-top: 30px;
+}
+
+#about .about_area p{
+  font-size: 0.9rem;
+}
+
+#about .ab_cont_box {
+  padding: 5%;
+  margin: 0 auto 5%;
+}
+
+#about .ab_cont_box p {
+  font-size: 0.8rem;
+}
+
+#about_02 .ab02_area p {
+  font-size: 0.8rem;
+  margin-bottom: 7%;
 }
 
 }
