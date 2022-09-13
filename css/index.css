@@ -1045,6 +1045,7 @@ color: #fff;
 #contact .con_area .con_txt_left ul{
   position: relative;
   color: #ff0055;
+  padding: 0 1%;
 }
 
 #contact .con_area .con_txt_left ul li b{
@@ -1054,6 +1055,7 @@ color: #fff;
 #contact .con_area .con_txt_left ul li{
   line-height:3;
   color: #fff;
+  font-weight: lighter;
 }
 
 #contact .con_area .con_txt_left .sns{

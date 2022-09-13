@@ -50,6 +50,11 @@
 #about_02 .ab02_bg {
   height: 62%;
 }
+
+#contact .con_area .con_txt_right {
+  padding: 8% 5%;
+  height:667px;
+}
 }
 
 
@@ -63,6 +68,7 @@
 
     #contact .con_area .con_txt_right {
       padding: 8% 5%;
+
   }
 
   #home .main_area .main_txt p br{
@@ -255,6 +261,7 @@
 
 #contact .con_area .con_txt_right {
   width: 90%;
+  height:100%;
 }
 
 footer .footer_area .footer_w {
@@ -360,6 +367,10 @@ padding: 0 20px;
 
 #coin .coin_area div.chart {
   width: 100%;
+}
+
+#contact .con_area .con_txt .info li br.non{
+  display:none;
 }
 
 }
