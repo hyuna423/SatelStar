@@ -3,3 +3,16 @@
     address{font-style:normal;}
 
 
+    #contact .con_area .con_txt_left {
+        padding: 3.2% 1%;
+    }
+
+    @media screen and (max-width:1024px) {
+    #contact .con_area .con_txt_left {
+        padding: 10.2% 0;
+    }
+
+    #contact .con_area .con_txt_left ul li {
+        padding: 0 1%;
+    }
+}
