@@ -3,9 +3,49 @@
     address{font-style:normal;}
 
 
+
+    #home .main_area .main_txt {
+        width: 72%;
+        margin: 0 auto;
+    }
+
+    #about .about_area p {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #about .about_area .ab_contents_wrap .ab_cont .ab_cont_box p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #about_02 .ab02_area p {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+        color: white;
+    }
+
+    
     #contact .con_area .con_txt_left {
         padding: 3.2% 1%;
     }
+
+    @media screen and (max-width:1440px) {
+        #home .main_area .main_txt {
+            width: 88%;
+            margin: 0 auto;
+        }
+
+        #about_02 .ab02_bg {
+            height: 64%;
+        }
+
+        #contact .con_area .con_txt_right {
+            padding: 8% 5%;
+        }
+    }
+
 
     @media screen and (max-width:1024px) {
     #contact .con_area .con_txt_left {
@@ -15,4 +55,55 @@
     #contact .con_area .con_txt_left ul li {
         padding: 0 1%;
     }
+
+    #about_02 .ab02_bg {
+        height: 60%;
+    }
+
+}
+
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+    #home .main_area {
+        top: 50%;
+    }
+
+    #about_02 .ab02_bg {
+        height: 53%;
+    }
+
+    #about .about_area p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #about_02 .ab02_area p {
+        width: 90%;
+    }
+
+    #about_02 .ab02_bg {
+        height: 51%;
+    }
+  }
+
+  @media screen and (max-width:576px) {
+    #home .main_area {
+        top: 55%;
+    }
+
+    #about_02 .ab02_bg {
+        height: 43%;
+    }
+  }
+
+
+  @media screen and (max-width:425px) {
+
+    #home .main_area .main_txt {
+        width: 100%;
+  }
+
+  #about_02 .ab02_bg {
+    height: 40%;
+}
 }
